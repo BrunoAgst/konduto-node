@@ -1,0 +1,16 @@
+{
+    "name": "Konduto-node",
+    "version": "1.0.0",
+    "description": "Konduto SDK",
+    "scripts": {},
+    "keywords": [
+      "konduto",
+      "sdk"
+    ],
+    "author": "Bruno Augusto",
+    "license": "ISC",
+    "dependencies": {
+      "Require": "^1.1.2",
+      "axios": "^0.19.1"
+    }
+}
