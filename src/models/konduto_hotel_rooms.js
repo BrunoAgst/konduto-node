@@ -1,5 +1,5 @@
 class HotelRooms{
-    constructor(){
+    constructor(number, code, type, check_in_date, check_out_date, board_basis, guests){
         this.number = number;
         this.code = code;
         this.type = type;

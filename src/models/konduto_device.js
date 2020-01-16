@@ -1,5 +1,5 @@
 class Device{
-    constructor(){
+    constructor(user_id, fingerprint, platform, browser, language, timezone, cookie, javascript, flash){
         this.user_id = user_id;
         this.fingerprint = fingerprint;
         this.platform = platform;

@@ -1,8 +1,5 @@
 class Order{
-	constructor(id, visitor, total_amount, shipping_amount, tax_amount, 
-		currency, installments, ip, first_message, messages_exchanged, 
-		purchased_at, analyze, customer, payment, billing, shipping, shopping_cart,
-		travel, seller){
+	constructor(id, visitor, total_amount, shipping_amount, tax_amount, currency, installments, ip, first_message, messages_exchanged, purchased_at, analyze, customer, payment, billing, shipping, shopping_cart, travel, seller){
 		this.id = id;
 		this.visitor = visitor;
 	    this.total_amount = total_amount;

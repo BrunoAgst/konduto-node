@@ -1,5 +1,5 @@
 class Address{
-    constructor(){
+    constructor(name, address1, address2, city, state, zip, country){
         this.name = name;
         this.address1 = address1;
         this.address2 = address2;
