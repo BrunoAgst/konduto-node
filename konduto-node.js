@@ -47,7 +47,7 @@ module.exports.sendOrder = function(newOrder, secretkey){
 
 //GET Blacklist
 
-function getBlacklist(email, secretkey){
+module.exports.getBlacklist = function(email, secretkey){
   axios.get(`https://api.konduto.com/v1/blacklist/email/${email}`,
   {  auth: { username: `${secretkey}`, password: ''}})
   .then(function(response){
