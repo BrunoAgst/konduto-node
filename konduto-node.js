@@ -58,6 +58,18 @@ module.exports.getBlacklist = function(email, secretkey){
   })
 }
 
+//PUT Blacklist
+module.exports.putBlacklist = function(email, secretkey, days){
+  axios.put(`https://api.konduto.com/v1/blacklist/email/${email}`,{"days_to_expire": days},
+  {  auth: { username: `${secretkey}`, password: ''}})
+  .then(function(response){
+      return console.log(response.data);
+  })
+  .catch(function(error){
+      return console.log(error.response);
+  })
+}
+
 //POST Blacklist
 
 module.exports.addBlacklist = function(email, secretkey){
