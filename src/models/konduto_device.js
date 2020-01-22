@@ -1,4 +1,4 @@
-class Device{
+module.exports = class Device{
     constructor(user_id, fingerprint, platform, browser, language, timezone, cookie, javascript, flash){
         this.user_id = user_id;
         this.fingerprint = fingerprint;
@@ -12,4 +12,3 @@ class Device{
     }
 }
 
-module.exports = Device;

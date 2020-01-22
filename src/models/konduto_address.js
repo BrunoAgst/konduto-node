@@ -1,4 +1,4 @@
-class Address{
+module.exports = class Address{
     constructor(name, address1, address2, city, state, zip, country){
         this.name = name;
         this.address1 = address1;
@@ -9,5 +9,3 @@ class Address{
         this.country = country;
     }
 }
-
-module.exports = Address;

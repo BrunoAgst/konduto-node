@@ -1,4 +1,4 @@
-class Item{
+module.exports = class Item{
     constructor(sku, category, name, description, product_code, unit_cost, quantity, discount, date){
         this.sku = sku;
         this.category = category;
@@ -12,4 +12,3 @@ class Item{
     }
 }
 
-module.exports = Item;

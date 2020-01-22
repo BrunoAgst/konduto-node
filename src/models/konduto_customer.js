@@ -1,4 +1,4 @@
-class Customer{
+module.exports = class Customer{
 	constructor(id, name, email, tax_id, dob, phone1, phone2, created_at, New, vip){
 		this.id = id;
 		this.name = name;
@@ -13,4 +13,3 @@ class Customer{
 	}
 }
 
-module.exports = Customer;

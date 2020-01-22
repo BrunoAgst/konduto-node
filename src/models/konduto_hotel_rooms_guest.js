@@ -1,4 +1,4 @@
-class HotelRoomGuests{
+module.exports = class HotelRoomGuests{
     constructor(name, document, document_type, date, nationality){
         this.name = name;
         this.document = document;
@@ -8,4 +8,3 @@ class HotelRoomGuests{
     }
 }
 
-module.exports = HotelRoomGuests;
