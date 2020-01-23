@@ -11,7 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "Require": "^1.1.2",
-    "axios": "^0.19.1"
+    "axios": "^0.19.2"
   },
   "main": "konduto-node.js",
   "repository": {

@@ -1,13 +1,7 @@
 const Customer = require('./konduto_customer');
-const Payment = require('./konduto_payment');
-const Address = require('./konduto_address');
-const Shopping_cart = require('./konduto_item');
-const Hotel = require('./konduto_hotel');
-const Travel = require('./konduto_travel');
-const Seller = require('./konduto_seller');
 
 class Order{
-	constructor(id, visitor, total_amount, shipping_amount, tax_amount, currency, installments, ip, first_message, messages_exchanged, purchased_at, analyze){
+	constructor(id, visitor, total_amount, shipping_amount, tax_amount, currency, installments, ip, first_message, messages_exchanged, purchased_at, analyze, payment, billing, shipping, shopping_cart, hotel, travel, seller){
 		this.id = id;
 		this.visitor = visitor;
 	    this.total_amount = total_amount;
@@ -21,13 +15,13 @@ class Order{
 	    this.purchased_at = purchased_at;
 	    this.analyze = analyze;
 	    this.customer = new Customer();
-	    this.payment = new Payment();
-	    this.billing = new Address();
-	    this.shipping = new Address();
-		this.shopping_cart = new Shopping_cart();
-		this.hotel = new Hotel();
-	    this.travel = new Travel();
-	    this.seller = new Seller();	
+	    this.payment = payment;
+	    this.billing = billing;
+	    this.shipping = shipping;
+		this.shopping_cart = shopping_cart;
+		this.hotel = hotel;
+	    this.travel = travel;
+	    this.seller = seller;	
 	}
 }
 
