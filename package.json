@@ -1,16 +1,24 @@
 {
   "name": "konduto-node",
-  "version": "1.0.0",
   "description": "Konduto SDK",
+  "version": "1.0.0",
   "scripts": {},
   "keywords": [
     "konduto",
     "sdk"
   ],
-  "author": "Bruno Augusto",
+  "tags": [
+      "node",
+      "konduto",
+      "sdk"
+  ],
+  "author": {
+      "name" : "Bruno Augusto",
+      "email": "bruno_agst@hotmail.com",
+      "homepage": "https://github.com/BrunoAgst"
+  },
   "license": "ISC",
   "dependencies": {
-    "Require": "^1.1.2",
     "axios": "^0.19.2"
   },
   "main": "konduto-node.js",

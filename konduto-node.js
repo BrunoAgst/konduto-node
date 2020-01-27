@@ -2,6 +2,8 @@ const axios = require('axios');
 const url = "https://api.konduto.com/v1/orders";
 const urlBlacklist = "https://api.konduto.com/v1/blacklist/email"; 
 
+
+
 /*
     Consultar pedido na API da Konduto.
 
@@ -11,6 +13,7 @@ const urlBlacklist = "https://api.konduto.com/v1/blacklist/email";
 */
 
 module.exports.getOrder = function(order, secretkey){
+ 
   axios.get(url + `/${order}`,
   { auth: { username: `${secretkey}`,  password: ''}})
   .then(function(response){
