@@ -8,14 +8,14 @@
     "sdk"
   ],
   "tags": [
-      "node",
-      "konduto",
-      "sdk"
+    "node",
+    "konduto",
+    "sdk"
   ],
   "author": {
-      "name" : "Bruno Augusto",
-      "email": "bruno_agst@hotmail.com",
-      "homepage": "https://github.com/BrunoAgst"
+    "name": "Bruno Augusto",
+    "email": "bruno_agst@hotmail.com",
+    "homepage": "https://github.com/BrunoAgst"
   },
   "license": "ISC",
   "dependencies": {
